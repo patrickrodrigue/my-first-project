@@ -1,0 +1,60 @@
+
+body{
+    background-color: #958bee;
+}
+.area{
+justify-content: center;
+    display: flex;
+    
+}
+
+h1,h2{
+    color: #fffff8;
+    
+}
+h1{
+    margin-block-start: 0em;
+    color: rgb(250, 246, 246);
+}
+.input_area{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    height: 1.5em; 
+}
+textarea{
+    width: 100%;
+    margin: 2em;
+
+}
+.container{
+    background-color: #000000;
+    display: inline-flex;
+    padding: 1em;
+    border-radius: 1em;
+    flex-direction:column;
+    align-items: center;
+    width: 19em;
+}
+
+button{
+    height: 3em;
+    width: 100%;
+    background-color: #FF9500;
+    border: none;
+    color: white;
+}
+button:hover{
+    cursor: pointer;
+}
+h3{
+    width: 10em;
+    background-color: rgb(89, 114, 114);
+    color: rgb(0, 0, 0);
+    font-size: 25dispt;
+    position: relative;
+    left: 45em;
+}
